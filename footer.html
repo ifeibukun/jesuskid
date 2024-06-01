@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orphanage Homepage</title>
+  <style>
+
+    *{
+      list-style-type: none;
+      text-decoration: none;
+    }
+
+      .footer-contents{
+        margin-top: 5px;
+        background-color: #333;
+        padding: 5px 5px;
+      }
+      .both-contents{
+        /* background-color: orangered ; */
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+      .navs{
+        display: flex;
+        justify-content: space-between;
+      }
+    .copyrights{
+      display: flex;
+      margin-top: 10px;
+      padding-bottom: 5px;
+      color: white;
+      justify-content: center;
+    }
+
+    .main_a{
+      color:white ;
+      text-transform: capitalize;
+      font-weight: bolder;
+    }
+  #main_a{
+      display: flex;
+      flex-direction: column;
+      line-height: 1;
+      /* background-color: black; */
+    }
+    h4{
+      color: orangered;
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+    .contact-info,
+    .address{
+      color: white;
+    }
+    .main_u{
+      display: flex;
+      flex-direction: column  ;
+      padding-bottom: 15px;
+      line-height: 3;
+    }
+
+    @media (max-width:600px) {
+      .footer-contents{
+      background-color: #333;
+      padding:  0px 0px;
+      /* margin-bottom: 10px; */
+
+    }
+    .both-contents{
+      /* background-color: orangered ; */
+      padding:  0px 0px;
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .navs{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column ;
+      align-items: center;
+ 
+    }
+    .main_u{
+      line-height: normal;
+    }
+    }
+    h4, .contact-info{
+      text-align: center;
+    }
+    /* .main_u{
+      display: flex;
+      flex-direction: column  ;
+      line-height:0.0001;
+      padding-bottom: 15px;
+    } */
+    #main_a{
+      line-height: 3.5;
+    }
+    .qvss{
+      margin-bottom: 10px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <div class="footer-contents">
+    <div class="both-contents">
+      <div class="navs">
+        <div class="quick-links">
+          <h4 class="qvss">Quick Links</h4>
+          <ul class="main_u">
+            <li><a class="main_a" href="index.php">Homepage</a></li>
+            <li><a class="main_a" href="aboutus.php">About us</a></li>
+            <li><a class="main_a" href="contactus.php">Contact us</a></li>
+            <li><a class="main_a" href="login.php">Login</a></li>
+            <li><a class="main_a" href="signup_modal.php">Sign up</a></li>
+          </ul>
+        </div>
+
+        <div class="social-media">
+          <h4 class="qvss">Social Media</h4>
+          <a class="main_a"  id="main_a">Facebook</a>
+          <a class="main_a"  id="main_a" href="">Twitter</a>
+          <a class="main_a"  id="main_a" href="">Instagram</a>
+          <a class="main_a"  id="main_a"href="">Linked-in</a>
+        </div>
+
+        <div class="contact-info">
+          <h4>Contact info</h4>
+          <p>Email: info@orphanage.com</p>
+          <p>+234 708 909 9446</p>
+          <p>+234 808 788 4070</p>
+        </div>
+
+        <div class="adress">
+          <h4>Address</h4>
+          <p class="address">18, ifelodun street, Iwo Road, Academy Market</p>
+        </div>
+
+      </div>
+
+      <div class="copyrights">
+        &copy; 2024 Orphange. All rights reserved.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
